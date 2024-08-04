@@ -1,7 +1,5 @@
 package automationFramework;
 
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -22,7 +20,7 @@ public class LoginChrome {
 				driver.get("https://practicetestautomation.com/practice-test-login/");
 				
 				//Maximizing window
-				//driver.manage().window().maximize();
+				driver.manage().window().maximize();
 				
 				
 				//Locating web element
